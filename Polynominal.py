@@ -59,7 +59,7 @@ class Polynomial:
     def __eq__(self, other):
         if isinstance(other,int):
             if self.no_zero == False:
-                return self.odds[0] == other
+                return self.odds[0] == dother
             else:
                 return False
         if len(self.odds) != len(other.odds):
